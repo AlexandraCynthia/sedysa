@@ -1315,7 +1315,7 @@ h6 {
 
 .texto-titulo{
 font-family: 'Shantell Sans', cursive;
-font-size: 150px;
+font-size: 100px;
 color: #FF6699;
 }
 
@@ -1330,15 +1330,45 @@ width: 180px;
 height: 180px;
 }
 
-.color_bg{
+/* .color_bg{
 
-  background-image: url('https://res.cloudinary.com/dgxnatqij/image/upload/v1680746379/decoracion-de-pasteles-infantiles_q1ovqh.webp');
-  background-repeat: repeat;
+  
+  background-repeat: no-repeat;
   background-size: cover ;
   background-attachment: fixed;
   width : 200vh;
+} */
 
+@media (min-width:480px){
+  .color_bg{
+    background: url('https://res.cloudinary.com/dgxnatqij/image/upload/v1681945939/SEDYSA/background_small_rmxki8.png') ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    width : 200vh;
+  }
 }
+
+/* @media(min-width:768px){
+  .color_bg{
+    background:url('https://res.cloudinary.com/dgxnatqij/image/upload/v1681945939/SEDYSA/background_50_yqnoly.png');
+    background-repeat: no-repeat;
+    background-size: cover ;
+  }
+   
+}
+
+@media(min-width:1200px){
+  .color_bg{
+    background:url('https://res.cloudinary.com/dgxnatqij/image/upload/v1680746379/decoracion-de-pasteles-infantiles_q1ovqh.webp');
+    background-repeat: no-repeat;
+    background-size: cover ;
+  }
+   
+} */
+
+
+
 
 figcaption{
 
