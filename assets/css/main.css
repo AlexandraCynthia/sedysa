@@ -704,6 +704,7 @@ h6 {
 
 .testimonials .swiper-slide {
   opacity: 0.3;
+  
 
 
 }
@@ -805,7 +806,7 @@ h6 {
 --------------------------------------------------------------*/
 .gallery-single .portfolio-details-slider img {
   width: 500px;
-
+  
 }
 
 .gallery-single .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
@@ -821,8 +822,8 @@ h6 {
 
 .gallery-single .swiper-button-prev,
 .gallery-single .swiper-button-next {
-  width: 48px;
-  height: 48px;
+  width: 200px;
+  height: 200px;
 }
 
 .gallery-single .swiper-button-prev:after,
@@ -1420,4 +1421,10 @@ figcaption{
   100%{
       box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
   }
+}
+
+
+.letter-gallery{
+
+  font-size: 16px;
 }
