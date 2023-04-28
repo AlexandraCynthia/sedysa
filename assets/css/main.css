@@ -1387,7 +1387,7 @@ figcaption{
   text-align: center;
   padding: 15px;
   font:20px/30px 'Shantell Sans';
-  color: whitesmoke
+
 }
 
 
@@ -1427,4 +1427,8 @@ figcaption{
 .letter-gallery{
 
   font-size: 16px;
+}
+
+.table{
+  color:whitesmoke;
 }
